@@ -5,8 +5,10 @@ import Home from './pages/Home/Home';
 import Products from './pages/Products/Products'
 import Services from './pages/Services/Services'
 import SignUp from './pages/SignUp/SignUp'
+import Footer from './components/Footer/Footer';
 
 import './App.css';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           <Route path='/products' element={<Products/>}/>
           <Route path='/sign-up' element={<SignUp/>}/>
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
