@@ -22,7 +22,7 @@
   }
   
   .cards__items {
-    margin-bottom: 24px;
+    margin-bottom: 3rem;
   }
   
   .cards__item {
@@ -30,6 +30,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    height: 100%;
   }
   
   .cards__item__link {
@@ -47,6 +48,7 @@
   .cards__item__pic-wrap {
     position: relative;
     width: 100%;
+    height: 100%;
     padding-top: 67%;
     overflow: hidden;
   }
